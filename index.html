@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>📚 Book Tracker</h1>
+
+    <!-- Form to add a new book -->
+    <form id="book-form">
+        <input type="text" id="title" placeholder="Book Title" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <input type="url" id="image" placeholder="Image URL" required>
+        <select id="status">
+            <option value="Unread">Unread</option>
+            <option value="Reading">Reading</option>
+            <option value="Read">Read</option>
+        </select>
+        <button type="submit">Add Book</button>
+    </form>
+
+    <!-- Section to display book cards -->
+    <div id="book-list" class="book-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
