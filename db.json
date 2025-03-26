@@ -1,15 +1,68 @@
 {
     "books": [
-      { "id": 1, "title": "The River and the Source", "author": "Margaret Ogola", "status": "Read", "image": "https://upload.wikimedia.org/wikipedia/en/9/99/The_River_and_the_Source_cover.jpg" },
-      { "id": 2, "title": "Petals of Blood", "author": "Ngũgĩ wa Thiong'o", "status": "Unread", "image": "https://upload.wikimedia.org/wikipedia/en/2/2a/Petals_of_Blood.jpg" },
-      { "id": 3, "title": "Weep Not, Child", "author": "Ngũgĩ wa Thiong'o", "status": "Reading", "image": "https://upload.wikimedia.org/wikipedia/en/6/6b/Weep_Not%2C_Child.jpg" },
-      { "id": 4, "title": "Dust", "author": "Yvonne Adhiambo Owuor", "status": "Read", "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1378933062l/18085436.jpg" },
-      { "id": 5, "title": "So Long a Letter", "author": "Mariama Bâ", "status": "Unread", "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442875242l/849259.jpg" },
-      { "id": 6, "title": "Blackass", "author": "A. Igoni Barrett", "status": "Reading", "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1439392675l/23492615.jpg" },
-      { "id": 7, "title": "Born a Crime", "author": "Trevor Noah", "status": "Read", "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1476284003l/29780253.jpg" },
-      { "id": 8, "title": "Americanah", "author": "Chimamanda Ngozi Adichie", "status": "Unread", "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1356655682l/15796700.jpg" },
-      { "id": 9, "title": "Efuru", "author": "Flora Nwapa", "status": "Read", "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1349061166l/2187466.jpg" },
-      { "id": 10, "title": "The Shadow of Imana", "author": "Veronique Tadjo", "status": "Unread", "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328084424l/370310.jpg" }
+      {
+        "id": "2",
+        "title": "Petals of Blood",
+        "author": "Ngũgĩ wa Thiong'o",
+        "status": "Unread",
+        "image": "https://books.google.co.ke/books/content?id=DlwBBM77KEYC&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U0XrHwfIhvvu8m9gfMa6ehDiMMtIg&w=1280"
+      },
+      {
+        "id": "3",
+        "title": "Weep Not, Child",
+        "author": "Ngũgĩ wa Thiong'o",
+        "status": "Reading",
+        "image": "https://upload.wikimedia.org/wikipedia/en/7/74/Weep_Not%2C_Child.jpg"
+      },
+      {
+        "id": "4",
+        "title": "Dust",
+        "author": "Yvonne Adhiambo Owuor",
+        "status": "Read",
+        "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1367929565i/17883925.jpg"
+      },
+      {
+        "id": "5",
+        "title": "So Long a Letter",
+        "author": "Mariama Bâ",
+        "status": "Unread",
+        "image": "https://books.google.co.ke/books/content?id=zA51b1qCgCEC&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U1oSsIyeOK2KMW3JedUpJv8hc0R6Q&w=1280"
+      },
+      {
+        "id": "6",
+        "title": "Blackass",
+        "author": "A. Igoni Barrett",
+        "status": "Reading",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9RqTjQ62QtpSxU7i-c2bP6KrFh2NQf11P1g&s"
+      },
+      {
+        "id": "7",
+        "title": "Born a Crime",
+        "author": "Trevor Noah",
+        "status": "Read",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6VO_gVzWudQtn8B-4tXfLg2rb_phOuwF1Sg&s"
+      },
+      {
+        "id": "8",
+        "title": "Americanah",
+        "author": "Chimamanda Ngozi Adichie",
+        "status": "Unread",
+        "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1356654499i/15796700.jpg"
+      },
+      {
+        "id": "9",
+        "title": "Efuru",
+        "author": "Flora Nwapa",
+        "status": "Read",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqw4WnNDBat5tRjOMYQIG_q2NdtA_pXzLu4w&s"
+      },
+      {
+        "id": "10",
+        "title": "The Shadow of Imana",
+        "author": "Veronique Tadjo",
+        "status": "Unread",
+        "image": "data:image/jpeg;base64,/9j/4AAQSkZ..."
+      }
     ]
   }
   
