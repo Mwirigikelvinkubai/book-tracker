@@ -1,0 +1,15 @@
+{
+    "books": [
+      { "id": 1, "title": "The River and the Source", "author": "Margaret Ogola", "status": "Read" },
+      { "id": 2, "title": "Petals of Blood", "author": "Ngũgĩ wa Thiong'o", "status": "Unread" },
+      { "id": 3, "title": "Weep Not, Child", "author": "Ngũgĩ wa Thiong'o", "status": "Reading" },
+      { "id": 4, "title": "Dust", "author": "Yvonne Adhiambo Owuor", "status": "Read" },
+      { "id": 5, "title": "So Long a Letter", "author": "Mariama Bâ", "status": "Unread" },
+      { "id": 6, "title": "Blackass", "author": "A. Igoni Barrett", "status": "Reading" },
+      { "id": 7, "title": "Born a Crime", "author": "Trevor Noah", "status": "Read" },
+      { "id": 8, "title": "Americanah", "author": "Chimamanda Ngozi Adichie", "status": "Unread" },
+      { "id": 9, "title": "Efuru", "author": "Flora Nwapa", "status": "Read" },
+      { "id": 10, "title": "The Shadow of Imana", "author": "Veronique Tadjo", "status": "Unread" }
+    ]
+  }
+  
