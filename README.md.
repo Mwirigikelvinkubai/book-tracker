@@ -1,3 +1,7 @@
+The Book Tracker is a Single Page Application (SPA) that allows users to add, edit, 
+and remove books from their collection.
+ It uses json-server for backend data storage
+
 Install Dependencies
 
 npm install -g json-server
@@ -26,3 +30,8 @@ Technologies Used
 HTML, CSS, JavaScript
 
 JSON Server (db.json)
+
+live here
+
+https://mwirigikelvinkubai.github.io/book-tracker/
+
