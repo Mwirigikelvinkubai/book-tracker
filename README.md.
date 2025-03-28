@@ -1,0 +1,28 @@
+Install Dependencies
+
+npm install -g json-server
+
+
+Start the Backend
+
+json-server --watch db.json
+
+By default, the server runs at:
+
+ http://localhost:3000/books
+
+
+
+🛠 API Endpoints
+Method	Endpoint	     Description
+GET	    /books	         Fetch all books
+POST	/books	          Add a new book
+PATCH	/books/:id	      Update book details
+DELETE	/books/:id	      Delete a book
+
+
+
+Technologies Used
+HTML, CSS, JavaScript
+
+JSON Server (db.json)
