@@ -4,14 +4,17 @@
       "id": "2",
       "title": "Petals of Blood",
       "author": "Ngũgĩ wa Thiong'o",
-      "status": "Unread",
-      "image": "https://books.google.co.ke/books/content?id=DlwBBM77KEYC&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U0XrHwfIhvvu8m9gfMa6ehDiMMtIg&w=1280"
+      "status": "Read",
+      "image": "https://books.google.co.ke/books/content?id=DlwBBM77KEYC&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U0XrHwfIhvvu8m9gfMa6ehDiMMtIg&w=1280",
+      "reviews": [
+        "The worst read"
+      ]
     },
     {
       "id": "3",
       "title": "Weep Not, Child",
       "author": "Ngũgĩ wa Thiong'o",
-      "status": "Reading",
+      "status": "Unread",
       "image": "https://upload.wikimedia.org/wikipedia/en/7/74/Weep_Not%2C_Child.jpg"
     },
     {
@@ -57,11 +60,11 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqw4WnNDBat5tRjOMYQIG_q2NdtA_pXzLu4w&s"
     },
     {
-      "id": "10",
-      "title": "The Shadow of Imana",
-      "author": "Veronique Tadjo",
-      "status": "Unread",
-      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1356459151i/753897.jpg"
+      "id": "81a7",
+      "title": "A NEW EARTH",
+      "author": "Echart Tolle",
+      "image": "https://www.sloww.co/wp-content/uploads/2018/12/Sloww-Eckhart-Tolle-A-New-Earth-Book-Summary.jpg",
+      "status": "Unread"
     }
   ]
 }

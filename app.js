@@ -25,9 +25,19 @@ function displayBook(book) {
         <img src="${book.image}" alt="${book.title}">
         <h3>${book.title}</h3>
         <p>Author: ${book.author}</p>
+        <p>Last Page Read: ${book.lastPageRead || "Not specified"}</p>
         <span class="status ${book.status}">${book.status}</span>
         <button class="update-btn" onclick="updateStatus(${book.id}, '${book.status}')">Update Status</button>
         <button class="delete-btn" onclick="deleteBook(${book.id})">Delete</button>
+        
+        <div class="review-section">
+            <h4>Reviews</h4>
+            <ul id="review-list-${book.id}">
+                ${book.reviews?.map(review => `<li>${review}</li>`).join('') || "No reviews yet."}
+            </ul>
+            <input type="text" id="review-input-${book.id}" placeholder="Add a review">
+            <button onclick="addReview(${book.id})">Submit</button>
+        </div>
     `;
 
     bookList.appendChild(bookCard);
@@ -41,7 +51,9 @@ bookForm.addEventListener("submit", function (e) {
         title: document.getElementById("title").value,
         author: document.getElementById("author").value,
         image: document.getElementById("image").value,
-        status: document.getElementById("status").value
+        status: document.getElementById("status").value,
+        lastPageRead: "", // Default empty
+        reviews: []
     };
 
     fetch(BASE_URL, {
@@ -76,6 +88,28 @@ function deleteBook(id) {
     fetch(`${BASE_URL}/${id}`, { method: "DELETE" })
         .then(() => fetchBooks()) // Refresh book list
         .catch(err => console.error("Error deleting book:", err));
+}
+
+// Add a review
+function addReview(id) {
+    const reviewInput = document.getElementById(`review-input-${id}`);
+    const newReview = reviewInput.value.trim();
+
+    if (!newReview) return;
+
+    fetch(`${BASE_URL}/${id}`)
+        .then(res => res.json())
+        .then(book => {
+            const updatedReviews = [...(book.reviews || []), newReview];
+
+            return fetch(`${BASE_URL}/${id}`, {
+                method: "PATCH",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ reviews: updatedReviews })
+            });
+        })
+        .then(() => fetchBooks()) // Refresh book list
+        .catch(err => console.error("Error adding review:", err));
 }
 
 // Initialize
