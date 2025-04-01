@@ -8,35 +8,17 @@
       "image": "https://books.google.co.ke/books/content?id=DlwBBM77KEYC&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U0XrHwfIhvvu8m9gfMa6ehDiMMtIg&w=1280",
       "reviews": [
         "The worst read"
-      ]
+      ],
+      "lastPageRead": 20,
+      "review": "awaful"
     },
     {
       "id": "3",
       "title": "Weep Not, Child",
       "author": "Ngũgĩ wa Thiong'o",
       "status": "Unread",
-      "image": "https://upload.wikimedia.org/wikipedia/en/7/74/Weep_Not%2C_Child.jpg"
-    },
-    {
-      "id": "4",
-      "title": "Dust",
-      "author": "Yvonne Adhiambo Owuor",
-      "status": "Read",
-      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1367929565i/17883925.jpg"
-    },
-    {
-      "id": "5",
-      "title": "So Long a Letter",
-      "author": "Mariama Bâ",
-      "status": "Reading",
-      "image": "https://books.google.co.ke/books/content?id=zA51b1qCgCEC&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U1oSsIyeOK2KMW3JedUpJv8hc0R6Q&w=1280"
-    },
-    {
-      "id": "6",
-      "title": "Blackass",
-      "author": "A. Igoni Barrett",
-      "status": "Reading",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9RqTjQ62QtpSxU7i-c2bP6KrFh2NQf11P1g&s"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/74/Weep_Not%2C_Child.jpg",
+      "review": "xxxxxx"
     },
     {
       "id": "7",
@@ -65,6 +47,15 @@
       "author": "Echart Tolle",
       "image": "https://www.sloww.co/wp-content/uploads/2018/12/Sloww-Eckhart-Tolle-A-New-Earth-Book-Summary.jpg",
       "status": "Unread"
+    },
+    {
+      "id": "8a13",
+      "title": "sHADOW OF iMANA",
+      "author": "vERONIQUE",
+      "image": "https://books.google.co.ke/books/content?id=ORv78iB9I1UC&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U20s61ZJro0FKhu-gJtyJ_gOiQzjQ&w=1280",
+      "status": "Unread",
+      "lastPageRead": 1,
+      "review": ""
     }
   ]
 }
